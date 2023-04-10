@@ -7,7 +7,6 @@ const fileStorageBE = axios.create({
 export const fetchAllS3Objects = async () => {
   try {
     const response = await fileStorageBE.get(`/api/s3`);
-    console.log(response);
     return response.data;
   } catch (error) {
     console.log(error);

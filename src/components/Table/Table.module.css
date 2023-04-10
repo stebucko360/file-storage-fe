@@ -1,0 +1,16 @@
+.tableHeader {
+  text-align: left;
+  padding-left: 20px;
+  resize: horizontal;
+}
+
+.tableCellEven {
+  padding-left: 20px;
+  resize: horizontal;
+}
+
+.tableCellOdd {
+  padding-left: 20px;
+  resize: horizontal;
+  background-color: darkgray;
+}
